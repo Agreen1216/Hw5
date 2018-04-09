@@ -1,0 +1,48 @@
+﻿body
+{ 
+    background-color: olivedrab
+}
+
+p.banner {
+    width: 1500px;
+    height: 270px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#circle {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.column1 {
+    float: left;
+    width: 33%;
+    position: fixed padding: 1px;
+    border-radius: 10px;
+    height: 1000px;
+    margin: 1px;
+}
+
+.first {
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.center {
+    opacity: 0.4;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    z-index: 2;
+}
